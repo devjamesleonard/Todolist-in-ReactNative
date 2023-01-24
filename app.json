@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Todolist",
+    "slug": "Todolist",
+    "Description": "This application allows to keep a list of all things you have to do",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Me8.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Germext.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/b489f0cc-2382-4c02-b55a-4aa1453b390b"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b489f0cc-2382-4c02-b55a-4aa1453b390b"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
